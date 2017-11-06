@@ -53,7 +53,7 @@ void jAudio::jSetup(void){
 /*-------------------------------------------------------------------
  * Javi tools
  *-------------------------------------------------------------------*/
-void jAudio::jFillComboBox(QComboBox *, QStringList){
+void jAudio::jFillComboBox(QComboBox *combo, QStringList data){
     for (int i = 0;  i< options.count(); i++){
         comboBox->addItem(data[i],i);
     }
